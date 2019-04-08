@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.circle {
+    border-radius: 50%;
+    border: 30px solid #96ce8c;
+    width: 150px;
+    height: 150px;
+    background-color: #edf5e5;
+    border-right: 30px solid #D0E6BB;
+    text-align: center;
+    line-height: 130px;
+    font-size: 50px;
+}
