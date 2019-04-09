@@ -9,6 +9,71 @@ h1 {
     background-color: #edf5e5;
     border-right: 30px solid #D0E6BB;
     text-align: center;
-    line-height: 130px;
+    line-height: 140px;
     font-size: 50px;
+}
+.circle-v2 {
+    border-radius: 50%;
+    border: 30px solid #96ce8c;
+    width: 150px;
+    height: 150px;
+    background-color: #edf5e5;
+    border-right: 30px solid #D0E6BB;
+    transform: rotate(-150grad);
+    text-align: center;
+    line-height: 140px;
+    font-size: 50px;
+}
+.circle-v2 div {
+    transform: rotate(150grad);
+}
+.row {
+    float: left;
+}
+table {
+    border: 1px solid #BB2222;
+    border-collapse: collapse;
+    empty-cells: hide;
+    text-align: center;
+}
+th {
+    background-color: #BB2222;
+    font-weight: bold;
+    color: white;
+    padding: 3px 25px 3px 3px;
+}
+td {
+    padding: 3px 25px 3px 3px;
+}
+tr {
+    border: 1px solid #BB2222;
+}
+tr:nth-child(odd) {
+    background: #FFE4E1;
+}
+td:nth-child(1) {
+    text-align: left;
+}
+table.multicolor {
+    border: 1px solid black;
+}
+.multicolor th {
+    background: grey;
+    border: 1px solid black;
+}
+.multicolor td {
+    color: black;
+    border: 1px solid black;
+}
+.multicolor td:nth-child(odd) {
+      background-color: #40E0D0;
+}
+.multicolor td:nth-child(even) {
+    background-color: #FFFF00;
+}
+.multicolor td {
+    text-align: left;
+}
+.multicolor td:nth-child(3){
+    text-align: center;
 }
